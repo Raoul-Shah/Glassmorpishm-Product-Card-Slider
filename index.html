@@ -10,13 +10,13 @@
 <body>
     <div class="container">
         <ul class="thumb">
-            <li><img src="./img/shoes1.png"></li>
-            <li><img src="./img/shoes2.png"></li>
-            <li><img src="./img/shoes3.png"></li>
+            <li onmouseover="changeImageSrc('./img/shoes1.png')"><img src="./img/shoes1.png"></li>
+            <li onmouseover="changeImageSrc('./img/shoes2.png')"><img src="./img/shoes2.png"></li>
+            <li onmouseover="changeImageSrc('./img/shoes3.png')"><img src="./img/shoes3.png"></li>
         </ul>
         <div class="imgBox">
             <h2>Nike Air Zoom</h2>
-            <img src="./img/shoes1.png">
+            <img src="./img/shoes1.png" class="shoess">
             <ul class="size">
                 <span>Size</span>
                 <li>39</li>
@@ -27,5 +27,7 @@
             <a href="#" class="btn">Add to Cart</a>
         </div>
     </div>
+
+    <script src="./app.js"></script>
 </body>
 </html>

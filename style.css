@@ -89,7 +89,7 @@ body {
 }
 
 .container .imgBox img:hover {
-    transform: scale(1.25) rotate(-15deg);
+    transform: scale(1.5) rotate(-15deg) translateX(20px);
 }
 
 .container .imgBox .size {
