@@ -125,3 +125,21 @@ body {
 .container .imgBox .size li:hover {
     transform: translateY(-10px);
 }
+
+.container .imgBox .btn {
+    position: absolute;
+    bottom: -30px;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    color: #1e6b7b;
+    transition: 0.25s;
+}
+
+.container .imgBox .btn:hover {
+    letter-spacing: 2px;
+}
